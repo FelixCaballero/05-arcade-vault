@@ -13,6 +13,8 @@ This repo pins `next@16.2.10` / `react@19.2.4` / `react-dom@19.2.4` — a versio
 
 When in doubt about any App Router file convention (`route.js`, `proxy.js`, metadata files, parallel/intercepted routes, etc.), grep `node_modules/next/dist/docs/01-app/` rather than relying on memory.
 
+
+
 ## Project
 
 Arcade Vault — a platform for playing games online and competing for high scores/points. Per `README.md`, the intended workflow is **Spec Driven Design** based on `/spec` and `/spec-impl` conventions from the `Klerith/fernando-skills` skill pack (installed via `npx skills@latest add Klerith/fernando-skills`). Those skill/spec directories are not present in the repo yet — the codebase is currently the unmodified output of `create-next-app` (single home page, no custom routes, components, or data layer built out yet).
